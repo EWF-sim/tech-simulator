@@ -1,0 +1,83 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Data folder and output files
+data/
+*.parquet
+*.xlsx
+# *.csv
+
+# Grasshopper/Rhino-specific ignores
+*.gh~
+*.ghx~
+*.3dm.bak
+*.rws
+*.rhl
+*.rhp
+*.3dmbak
+*.rwsbak
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+*.env
+*.secret
+*.key
